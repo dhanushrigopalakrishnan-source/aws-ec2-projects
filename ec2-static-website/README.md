@@ -16,7 +16,12 @@ User → Internet → EC2 (Public IP) → Apache/Nginx → HTML Website
 6. Verified website loads via public IP
 
 ## Screenshots
-(add here)
+
+### Deployed website via public IP
+![EC2 Static Website](ec2-static-website.png)
+
+Website successfully deployed on Apache HTTP Server running on Amazon Linux, 
+accessible via the EC2 instance's public IP over HTTP (port 80).)
 
 ## What I learned
 How to expose a web server publicly using EC2 security groups, and the 
